@@ -1,0 +1,35 @@
+body {
+    background-color: #afd7dd;
+    font-family: Cursive, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #e3a698;
+    color: rgb(203, 34, 34);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4050cd;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #d3c4c4;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+}
